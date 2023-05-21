@@ -1,0 +1,17 @@
+##### Instalar y configurar en MACOS
+# Si git da error en el terminal install again
+git —version
+xcode-select —install
+git —version
+
+# Configurar con la cuenta de github
+git config —global user.name “elorenzzz96”
+git config —global user.email “buzzzev@gmail.com”
+
+# Listar configuracion o editar el archivo
+git config —list
+git config —global —edit
+
+# Clonar el primer repositorio en la posicion pwd de la consola
+git clone https://github.com/elorenzzz96/HowToAzure.git
+
