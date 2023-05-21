@@ -1,4 +1,4 @@
-##### Instalar y configurar en MACOS
+### Instalar y configurar en MACOS
 # Si git da error en el terminal install again
 git —version
 xcode-select —install
@@ -14,4 +14,17 @@ git config —global —edit
 
 # Clonar el primer repositorio en la posicion pwd de la consola
 git clone https://github.com/elorenzzz96/HowToAzure.git
+
+
+### Actualizar repositorio
+# Crear archivo en VSCode
+git add index.html
+git status
+git commit -m "Tutorial Github"
+
+echo "#Comentario inicial" >> README.md
+git add README.md
+
+git push
+
 
